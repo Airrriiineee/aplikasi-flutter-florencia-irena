@@ -78,7 +78,7 @@ class MainScreenView extends StatelessWidget{
                         const SizedBox(height: 8.0,),
                         Expanded(child: ClipRRect(
                             borderRadius: BorderRadius.circular(15),
-                            child: Image.asset(moment.imageAsset),
+                            child: Image.network(moment.imageAsset),
                           ),
                         ),                            
                         const SizedBox(height: 8.0,),

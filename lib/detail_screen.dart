@@ -68,7 +68,7 @@ class DetailScreenGrid extends StatelessWidget{
                       flex: 1,
                         child: ClipRRect(
                         borderRadius: BorderRadius.circular(10),
-                        child: Image.asset(item.imageAsset),
+                        child: Image.network(item.imageAsset),
                         ),
                     ),
                     const SizedBox(height: 16.0),
@@ -200,7 +200,7 @@ class DetailScreenList extends StatelessWidget{
                       flex: 1,
                         child: ClipRRect(
                         borderRadius: BorderRadius.circular(10),
-                        child: Image.asset(item.imageAsset),
+                        child: Image.network(item.imageAsset),
                         ),
                     ),
                     const SizedBox(width: 16.0),

@@ -38,7 +38,7 @@ class PopUpScreenMobile extends StatelessWidget{
           children: <Widget>[
             Stack(
               children: <Widget>[
-                Image.asset(item.imageAsset),
+                Image.network(item.imageAsset),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: CircleAvatar(
@@ -139,7 +139,7 @@ class PopUpScreenWeb extends StatelessWidget{
                         flex: 1,
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(10),
-                          child: Image.asset(item.imageAsset),
+                          child: Image.network(item.imageAsset),
                           ),
                       ),
                       const SizedBox(width: 16,),
